@@ -1,0 +1,72 @@
+<project
+    xmlns="http://maven.apache.org/POM/4.0.0"
+    xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+    xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd"
+>
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>org.sonatype.oss</groupId>
+        <artifactId>oss-parent</artifactId>
+        <version>9</version>
+    </parent>
+    <groupId>com.madgag</groupId>
+    <artifactId>use-newer-java</artifactId>
+    <version>0.1-SNAPSHOT</version>
+    <packaging>jar</packaging>
+    <name>Use Newer Java</name>
+    <description>
+        A small lib to give your users a friendly message that they're using a version
+        of Java that's too old.
+    </description>
+    <url>https://github.com/rtyley/use-newer-java</url>
+    <issueManagement>
+        <url>https://github.com/rtyley/use-newer-java/issues</url>
+        <system>GitHub Issues</system>
+    </issueManagement>
+    <licenses>
+        <license>
+            <name>Apache V2</name>
+            <url>http://www.apache.org/licenses/LICENSE-2.0</url>
+            <distribution>repo</distribution>
+        </license>
+    </licenses>
+    <scm>
+        <url>https://github.com/rtyley/use-newer-java</url>
+        <connection>scm:git:git://github.com/rtyley/use-newer-java.git</connection>
+        <developerConnection>scm:git:git@github.com:rtyley/use-newer-java.git</developerConnection>
+    </scm>
+    <developers>
+        <developer>
+            <email>roberto.tyley@gmail.com</email>
+            <name>Roberto Tyley</name>
+            <url>https://github.com/rtyley</url>
+            <id>rtyley</id>
+        </developer>
+    </developers>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+    </properties>
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <version>3.7.0</version>
+                <configuration>
+                    <source>1.5</source>
+                    <target>1.5</target>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+    <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.12</version>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+</project>
