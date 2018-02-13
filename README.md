@@ -1,4 +1,5 @@
 # Use-Newer-Java
+[![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.madgag/use-newer-java/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.madgag/use-newer-java)
 
 _A small helper library to give users a friendly message when they're using a version of Java that's too old_
 
