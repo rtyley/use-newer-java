@@ -10,3 +10,6 @@ buildNumber.properties
 
 .idea/
 *.iml
+
+.bsp/
+
