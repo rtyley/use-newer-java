@@ -7,13 +7,12 @@ import java.net.URL;
 import java.util.Enumeration;
 import java.util.jar.Attributes;
 import java.util.jar.Manifest;
-import java.util.regex.Pattern;
 
 public class Util {
 
     public static final String TARGET_CLASS_ATTRIBUTE_NAME = "Main-Class-After-UseNewerJava-Check";
 
-    public static void checkJavaVersionAndExecuteMainProgram(int majorJavaVersion, String[] args) {
+    public static void letUsJustRenameAPublicMethodThatShouldBeFine(int majorJavaVersion, String[] args) {
         checkJavaVersionIsNewEnough(majorJavaVersion);
         executeMainProgram(args);
     }
