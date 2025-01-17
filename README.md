@@ -1,5 +1,7 @@
 # Use-Newer-Java
 [![Maven Central](https://maven-badges.herokuapp.com/maven-central/com.madgag/use-newer-java/badge.svg)](https://maven-badges.herokuapp.com/maven-central/com.madgag/use-newer-java)
+[![CI](https://github.com/rtyley/use-newer-java/actions/workflows/ci.yml/badge.svg)](https://github.com/rtyley/use-newer-java/actions/workflows/ci.yml)
+[![Release](https://github.com/rtyley/use-newer-java/actions/workflows/release.yml/badge.svg)](https://github.com/rtyley/use-newer-java/actions/workflows/release.yml)
 
 _A small helper library to give users a friendly message when they're using a version of Java that's too old_
 
