@@ -14,8 +14,8 @@ Compile / compile / javacOptions ++= Seq("-source", "1.5", "-target", "1.5")
 
 organization := "com.madgag"
 licenses := Seq(License.Apache2)
+crossPaths := false // we don't want '_2.12' or any suffix like that attached to the artifact version
 
-// releaseVersion := ReleaseVersion.fromAggregatedAssessedCompatibilityWithLatestRelease().value
 releaseProcess := Seq[ReleaseStep](
   checkSnapshotDependencies,
   inquireVersions,
